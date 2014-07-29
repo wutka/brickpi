@@ -9,13 +9,14 @@ with the [BrickPi add-on board](http://www.dexterindustries.com/BrickPi/).
 The brickpi process uses the Erlang port mechanism to communicate with the
 Brick Pi. To use this process, you start it like this:
 ```erlang
-brickpi:start\_link().
+brickpi:start_link().
 ```
 The default start\_link function assumes that the brickpi\_erlport executable
 is somewhere in the path. You can also specify the path to the program
 as an argument to start\_link:
 ```erlang
-brickpi:start\_link("/home/mark/brickpi/brickpi_erlport").
+brickpi:start_link("/home/mark/brickpi/brickpi_erlport").
+```
 
 The brickpi process uses several data structures and constants that are
 defined in the brickpi.hrl file, make sure you include it with:
