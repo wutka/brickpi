@@ -74,5 +74,5 @@ with the printed test track that came with my Lego NXT set. They may not
 work well under all lighting conditions.
 
 Here's the robot in action:
-[![Robot video](https://img.youtube.com/vi?v=Q0VFYvG5bTc/0.jpg)(https://www.youtube.com/watch?v=Q0VFYvG5bTc)]
+[![Robot video](http://img.youtube.com/vi/Q0VFYvG5bTc/0.jpg)(https://www.youtube.com/watch?v=Q0VFYvG5bTc)]
 
