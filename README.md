@@ -61,6 +61,9 @@ module that contains the robot logic, a robot\_sup containing a supervisor
 module that starts the brickpi and robot\_fsm processes and makes sure they
 stay running, and the robot\_app application that starts the supervisor.
 
+## Example Robot
+![Lego Robot with Brick Pi controller](http://www.wutka.com/lego_robot.jpg)
+
 The robot that this example program drives has two motors and a red light
 sensor (I had some trouble getting the full light sensor to work). Because
 of the way I built the robot, the motors are backwards, so you have to use
@@ -69,3 +72,6 @@ a negative motor speed to go forwards.
 The light sensor thresholds were numbers I came up with after experimenting
 with the printed test track that came with my Lego NXT set. They may not
 work well under all lighting conditions.
+
+Here's the robot in action:
+<iframe width="420" height="315" src="//www.youtube.com/embed/Q0VFYvG5bTc" frameborder="0" allowfullscreen></iframe>
