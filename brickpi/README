@@ -1,0 +1,15 @@
+This directory contains an Erlang app that controls a 2-motor robot that
+uses a light sensor to follow a printed track. To use this code in other
+projects you just need brickpi.erl, brickpi.hrl and the accompanying 
+C executable.
+
+To build the application, just do:
+build.sh
+
+To run it, I typically copy the ebin directory to my pi along with the
+executable, then from the directory where ebin is, I just do:
+erl -pa ebin
+
+Then from Erlang:
+application:start(robot).
+

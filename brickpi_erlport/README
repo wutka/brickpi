@@ -1,0 +1,14 @@
+This is the executable that functions as an Erlang port to give Erlang
+access to the BrickPi API. You will need to install wiringPi (by default
+it installs in /usr/local).
+
+This Makefile is set up to run a cross-compiler so you can build from
+a separate machine. To build directly on the Pi, change the CC = definition
+to just be CC = gcc.
+
+Then just do:
+    make
+
+You will need this executable to be somewhere in your path when you run
+the Erlang application.
+

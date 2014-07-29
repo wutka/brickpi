@@ -1,0 +1,43 @@
+-define(SENSOR_TOUCH, 32).
+-define(SENSOR_ULTRASONIC_CONT, 33).
+-define(SENSOR_ULTRASONIC_SS, 34).
+-define(SENSOR_RCX_LIGHT, 35).
+-define(SENSOR_COLOR_FULL, 36).
+-define(SENSOR_COLOR_RED, 37).
+-define(SENSOR_COLOR_GREEN, 38).
+-define(SENSOR_COLOR_BLUE, 39).
+-define(SENSOR_COLOR_NONE, 40).
+-define(SENSOR_I2C, 41).
+-define(SENSOR_I2C_9V, 42).
+-define(SENSOR_EV3_US_M0, 43).
+-define(SENSOR_EV3_US_M1, 44).
+-define(SENSOR_EV3_US_M2, 45).
+-define(SENSOR_EV3_US_M3, 46).
+-define(SENSOR_EV3_US_M4, 47).
+-define(SENSOR_EV3_US_M5, 48).
+-define(SENSOR_EV3_US_M6, 49).
+
+-define(SENSOR_EV3_COLOR_M0, 50).
+-define(SENSOR_EV3_COLOR_M1, 51).
+-define(SENSOR_EV3_COLOR_M2, 52).
+-define(SENSOR_EV3_COLOR_M3, 53).
+-define(SENSOR_EV3_COLOR_M4, 54).
+-define(SENSOR_EV3_COLOR_M5, 55).
+
+-define(SENSOR_EV3_GYRO_M0, 56).
+-define(SENSOR_EV3_GYRO_M1, 57).
+-define(SENSOR_EV3_GYRO_M2, 58).
+-define(SENSOR_EV3_GYRO_M3, 59).
+-define(SENSOR_EV3_GYRO_M4, 60).
+
+-define(SENSOR_EV3_INFRARED_M0, 61).
+-define(SENSOR_EV3_INFRARED_M1, 62).
+-define(SENSOR_EV3_INFRARED_M2, 63).
+-define(SENSOR_EV3_INFRARED_M3, 64).
+-define(SENSOR_EV3_INFRARED_M4, 65).
+-define(SENSOR_EV3_INFRARED_M5, 66).
+
+-record(robot_settings, {motor_a, motor_b, motor_c, motor_d, port_1, port_2, port_3, port_4}).
+-record(robot_motor_speeds, {motor_a, motor_b, motor_c, motor_d, timeout}). 
+-record(sensor_data, { value, extra }).
+-record(robot_data, {motor_a, motor_b, motor_c, motor_d, port_1, port_2, port_3, port_4}).
