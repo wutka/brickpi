@@ -69,8 +69,9 @@ erl -pa ebin
 The "-pa ebin" option adds the ebin directory (where erlc was told to store output) to your Erlang path.
 Now, start the brickpi process:
 ``` erlang
-brickpi:start\_link().
+brickpi:start_link().
 ```
+
 To use the Erlang structures for the robot within the Erlang interpreter, you have to declare them
 from within the interpreter. You basically take the definitions from brickpi.hrl and replace "-record"
 with "rd" like this:
